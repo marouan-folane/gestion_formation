@@ -4,7 +4,7 @@ Une plateforme de gestion des formations pour les formateurs de l'OFPPT.
 
 ## Fonctionnalités
 
-- Authentification (connexion/inscription)
+- Authentification (connexion)
 - Tableau de bord personnalisé
 - Gestion des formations
 - Suivi de progression
@@ -12,7 +12,6 @@ Une plateforme de gestion des formations pour les formateurs de l'OFPPT.
 
 ## Technologies utilisées
 
-- Next.js 14
 - React 18
 - Tailwind CSS
 - Framer Motion
@@ -40,7 +39,7 @@ yarn install
 
 3. Lancez le serveur de développement :
 ```bash
-npm run dev
+npm start
 # ou
 yarn dev
 ```
@@ -79,7 +78,7 @@ ofppt-formation/
 
 - `npm run dev` : Lance le serveur de développement
 - `npm run build` : Crée une version de production
-- `npm run start` : Lance le serveur de production
+- `npm  start` : Lance le serveur de production
 - `npm run lint` : Vérifie le code avec ESLint
 
 ## Contribution
